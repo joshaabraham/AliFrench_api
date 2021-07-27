@@ -6,7 +6,7 @@ namespace ApiAliFrench.Models
     public class Category
     {
         public int id { get; set; }
-        public enum Type { get; set; }
+        public enum Type { get, set }
         public string name { get; set; }
         public string slug { get; set; }
         public string path { get; set; }
