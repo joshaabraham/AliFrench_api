@@ -25,6 +25,5 @@ namespace ApiAliFrench.Models
     public enum Type
     {
        shop,blog
-
     }
 }
